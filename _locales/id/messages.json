@@ -1,0 +1,11 @@
+{
+  "paste": {"message": "Paste url or use current" },
+  "submit": {"message": "Short" },
+  "success": {"message": "Short url is here" },
+  "error": {"message": "Sorry, something went wrong" },
+  "please_wait": {"message": "Please wait" },
+  "browser_action": {"message": "Get short link" },
+  "ext_desc": {"message": "Get short link in one click" },
+  "ext_name": {"message": "1Click short link" }
+}
+

@@ -1,0 +1,14 @@
+{
+  "custom_title": {"message": "Custom sizes" },
+  "save": {"message": "Save" },
+  "height": {"message": "Height (optional)" },
+  "width": {"message": "Width" },
+  "save": {"message": "Save" },
+  "resize": {"message": "Resize" },
+  "alert_custom": {"message": "Please insert width and optional height, both just digits" },
+  "select_label": {"message": "- Select size -" },
+  "browser_action": {"message": "open notepad" },
+  "ext_desc": {"message": "Write and save text in one click" },
+  "ext_name": {"message": "1Click notepad" }
+}
+
