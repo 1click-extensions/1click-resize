@@ -1,9 +1,13 @@
 {
-  "save_file": {"message": "שמור טקסט למחשב" },
-  "new_file": {"message": "קובץ חדש" },
-  "title_label": {"message": "שם המסמך" },
-  "choose_recent": {"message": "מסמכים קודמים" },
-  "browser_action": {"message": "פתח יומן רשימות" },
-  "ext_desc": {"message": "כתוב ושמור טקסטים בלחיצה אחת" },
-  "ext_name": {"message": "יומן רשימות בלחיצה אחת" }
+  "custom_title": {"message": "גדלים מותאמים" },
+  "save": {"message": "שמור" },
+  "height": {"message": "גובה (לא חובה)" },
+  "width": {"message": "רוחב" },
+  "resize": {"message": "שנה גודל" },
+  "alert_custom": {"message": "אנא הכנס רוחב (ניתן גם גובה אך לא חובה) בספרות בלבד" },
+  "select_label": {"message": "- בחר גודל -" },
+  "browser_action": {"message": "שנה גודל חלון" },
+  "ext_desc": {"message": "שנה את גדול חלון הדפדן לגדלים של מובייל או דסקטוב או גדלים מותאמים אישית" },
+  "ext_name": {"message": "שנה גודל חלון בלחיצה אחת" }
 }
+

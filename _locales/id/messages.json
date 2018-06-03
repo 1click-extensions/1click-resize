@@ -1,11 +1,13 @@
 {
-  "paste": {"message": "Paste url or use current" },
-  "submit": {"message": "Short" },
-  "success": {"message": "Short url is here" },
-  "error": {"message": "Sorry, something went wrong" },
-  "please_wait": {"message": "Please wait" },
-  "browser_action": {"message": "Get short link" },
-  "ext_desc": {"message": "Get short link in one click" },
-  "ext_name": {"message": "1Click short link" }
+  "custom_title": {"message": "Custom sizes" },
+  "save": {"message": "Save" },
+  "height": {"message": "Height (optional)" },
+  "width": {"message": "Width" },
+  "resize": {"message": "Resize" },
+  "alert_custom": {"message": "Please insert width and optional height, both just digits" },
+  "select_label": {"message": "- Select size -" },
+  "browser_action": {"message": "Resize window" },
+  "ext_desc": {"message": "Resize browser's window to mobile, desktion or custom sizes" },
+  "ext_name": {"message": "1Click Resize Window" }
 }
 
