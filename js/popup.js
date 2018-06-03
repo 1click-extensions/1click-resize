@@ -36,7 +36,7 @@ $(function(){
         else{
             $('.remove').attr('disabled', 'disabled');
         }
-    });
+    }).trigger('change');
     $('.custom').text(chrome.i18n.getMessage('custom_title'));
     $('.resize').text(chrome.i18n.getMessage('resize'));
     $('#width').attr('placeholder', chrome.i18n.getMessage('width'));
