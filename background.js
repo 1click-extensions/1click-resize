@@ -134,9 +134,13 @@ chrome.runtime.onMessage.addListener( function(request,sender,sendResponse)
       }
       //console.log(options);
       chrome.windows.getCurrent(function(wind) {
+        console.log(options);
         chrome.windows.update(wind.id,options);
+        injectJsCurrentTab();
       })
+      
       }
+      
   });
 
 
