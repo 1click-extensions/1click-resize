@@ -1,3 +1,4 @@
+isInpopup = null;
 function oneClickGetPopupHtml(extension) {
   if(!extension && 'undefined' != typeof _extension){
   	extension = _extension;
@@ -24,15 +25,18 @@ function oneClickGetPopupHtml(extension) {
 	overflow: hidden;
 	
 	box-shadow: 0 0 0 2px hsl(0, 0%, 80%);
+	box-sizing:border-box;
 }
 .pleaseRate a,
 .pleaseRate a:hover,
 .pleaseRate a:visited{
 	color:#000;
+	text-decoration:underline;
 }
 .please-rate-text {
     margin: 0 auto;
 	width: 566px;
+	max-width:100%;
 	font-size:22px;
 }
   .btn-popup {
@@ -162,5 +166,14 @@ function oneClickPopupHtmlToBody(extension){
 	  });
 	  document.body.addEventListener('click', removeRateRequest);
 	  document.getElementsByClassName('no-thanks')[0].addEventListener('click', removeRateRequest);
+	  if(isInpopup){
+		fixForPopup();
+	  }
 }
 
+function fixForPopup(){
+	var pop = document.getElementsByClassName('pleaseRate')[0];
+	pop.style.position = "static";
+
+	document.body.style['min-width'] = '520px';
+}
